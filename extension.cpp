@@ -53,7 +53,7 @@ void Hook_ClientPrintf(edict_t *pEdict, const char *szMsg)
 {
 	char cMsg [192];
 	strcpy(cMsg, szMsg);
-	int client = engine->IndexOfEdict(pEdict);
+	int client = gamehelpers->IndexOfEdict(pEdict);
 
 	if (client > 0 && client <= gpGlobals->maxClients)
 	{
