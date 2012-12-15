@@ -40,7 +40,7 @@
 /* Basic information exposed publicly */
 #define SMEXT_CONF_NAME			"ConsoleHook"
 #define SMEXT_CONF_DESCRIPTION	"Hook when PrintToConsole is called"
-#define SMEXT_CONF_VERSION		"1.0.0"
+#define SMEXT_CONF_VERSION		"1.0.1"
 #define SMEXT_CONF_AUTHOR		"Mini"
 #define SMEXT_CONF_URL			"http://forums.alliedmods.net/"
 #define SMEXT_CONF_LOGTAG		"[CH]"
